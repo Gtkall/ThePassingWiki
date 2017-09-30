@@ -158,11 +158,15 @@ Error message and password prompt
 
 <li>$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme</li>
 
+<li>$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror</li>
+
 <li>$:/config/RelinkOnRename</li>
 
 <li>$:/config/TimestampDisable</li>
 
 <li>$:/config/Toolbar/ButtonClass</li>
+
+<li>$:/config/Toolbar/Text</li>
 
 <li>$:/core</li>
 
@@ -189,6 +193,8 @@ Error message and password prompt
 <li>$:/state/Excise/-1984840681/type</li>
 
 <li>$:/state/image-picker/system--1829378338</li>
+
+<li>$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/codemirror</li>
 
 <li>$:/state/showeditpreview</li>
 
@@ -282,6 +288,8 @@ Error message and password prompt
 
 <li>Lorenna the Honoured</li>
 
+<li>Miinalla</li>
+
 <li>Norath the Caring</li>
 
 <li>NPC</li>
@@ -303,6 +311,8 @@ Error message and password prompt
 <li>The Order of Lynn</li>
 
 <li>The Protectors</li>
+
+<li>The Red Fang</li>
 
 <li>Ukedall the Warrior of Faith</li>
 
@@ -387,6 +397,9 @@ Error message and password prompt
 <div created="20170704165533919" creator="The DM" modified="20170704165539159" modifier="The DM" title="$:/config/PageControlButtons/Visibility/$:/core/ui/Buttons/theme">
 <pre>hide</pre>
 </div>
+<div created="20170928114030313" creator="The DM" modified="20170928114200386" modifier="The DM" title="$:/config/Plugins/Disabled/$:/plugins/tiddlywiki/codemirror">
+<pre>no</pre>
+</div>
 <div created="20170608134521862" creator="The DM" modified="20170608134521862" modifier="The DM" title="$:/config/RelinkOnRename">
 <pre>yes</pre>
 </div>
@@ -395,6 +408,9 @@ Error message and password prompt
 </div>
 <div created="20170609174815551" creator="The DM" modified="20170609174838366" modifier="The DM" title="$:/config/Toolbar/ButtonClass">
 <pre>tc-btn-invisible</pre>
+</div>
+<div created="20170928115942693" creator="The DM" modified="20170928115948175" modifier="The DM" title="$:/config/Toolbar/Text">
+<pre>no</pre>
 </div>
 <div author="JeremyRuston" core-version="&gt;=5.0.0" dependents="" description="TiddlyWiki5 core" list="readme" plugin-priority="0" plugin-type="plugin" title="$:/core" type="application/json" version="5.1.14">
 <pre>{
@@ -8943,23 +8959,26 @@ Error message and password prompt
 <div created="20170608135827964" creator="The DM" modified="20170608140624224" modifier="The DM" title="$:/state/image-picker/system--1829378338">
 <pre>hide</pre>
 </div>
+<div created="20170928114027983" creator="The DM" modified="20170928114027983" modifier="The DM" title="$:/state/plugin-info--896887961-$:/plugins/tiddlywiki/codemirror">
+<pre>yes</pre>
+</div>
 <div created="20170608135226137" creator="The DM" modified="20170609152426690" modifier="The DM" title="$:/state/showeditpreview">
 <pre>yes</pre>
 </div>
-<div created="20170608144458883" creator="The DM" modified="20170923152748432" modifier="The DM" title="$:/state/sidebar">
+<div created="20170608144458883" creator="The DM" modified="20170923183857570" modifier="The DM" title="$:/state/sidebar">
 <pre>yes</pre>
 </div>
 <div created="20170609174625556" creator="The DM" modified="20170616132524839" modifier="The DM" title="$:/state/tab--1498284803">
 <pre>$:/core/ui/AdvancedSearch/Filter</pre>
 </div>
-<div created="20170609174517319" creator="The DM" modified="20170609174600587" modifier="The DM" title="$:/state/tab--2112689675">
+<div created="20170609174517319" creator="The DM" modified="20170928120006729" modifier="The DM" title="$:/state/tab--2112689675">
 <pre>$:/core/ui/ControlPanel/Basics</pre>
 </div>
 <div created="20170609174531453" creator="The DM" modified="20170609174559008" modifier="The DM" title="$:/state/tab--959111941">
 <pre>$:/core/ui/ControlPanel/EditorTypes</pre>
 </div>
-<div created="20170608133057572" creator="The DM" modified="20170706094311436" modifier="The DM" title="$:/state/tab-1749438307">
-<pre>$:/core/ui/ControlPanel/Plugins</pre>
+<div created="20170608133057572" creator="The DM" modified="20170928115950557" modifier="The DM" title="$:/state/tab-1749438307">
+<pre>$:/core/ui/ControlPanel/Info</pre>
 </div>
 <div created="20170608133159223" creator="The DM" modified="20170609175034853" modifier="The DM" title="$:/state/tab-2065006209">
 <pre>$:/core/ui/ControlPanel/Saving/TiddlySpot</pre>
@@ -8994,7 +9013,7 @@ Error message and password prompt
 <div created="20170608132008245" creator="T" modified="20170608132009381" modifier="The D" title="$:/status/UserName">
 <pre>The DM</pre>
 </div>
-<div list="[[Draft of 'The Order of Lynn']] PC [[Ukedall the Warrior of Faith]] Welcome!" title="$:/StoryList">
+<div list="$:/ControlPanel $:/AdvancedSearch Miinalla Welcome!" title="$:/StoryList">
 <pre></pre>
 </div>
 <div created="20170609174625556" creator="The DM" modified="20170616132545348" modifier="The DM" title="$:/temp/advancedsearch">
@@ -9013,7 +9032,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/full&quot;: {
             &quot;title&quot;: &quot;$:/info/url/full&quot;,
-            &quot;text&quot;: &quot;file:///C:/Users/Sony/Documents/GitHub/ThePassingWiki/index.html&quot;
+            &quot;text&quot;: &quot;file:///D:/Recovery_USB/George/Projects/DnD%20Projects/Dungeons%20&amp;%20Dragons%20-%20The%20Passing/Wiki/ThePassingWiki/index.html&quot;
         },
         &quot;$:/info/url/host&quot;: {
             &quot;title&quot;: &quot;$:/info/url/host&quot;,
@@ -9033,7 +9052,7 @@ Error message and password prompt
         },
         &quot;$:/info/url/pathname&quot;: {
             &quot;title&quot;: &quot;$:/info/url/pathname&quot;,
-            &quot;text&quot;: &quot;/C:/Users/Sony/Documents/GitHub/ThePassingWiki/index.html&quot;
+            &quot;text&quot;: &quot;/D:/Recovery_USB/George/Projects/DnD%20Projects/Dungeons%20&amp;%20Dragons%20-%20The%20Passing/Wiki/ThePassingWiki/index.html&quot;
         },
         &quot;$:/info/url/search&quot;: {
             &quot;title&quot;: &quot;$:/info/url/search&quot;,
@@ -9413,6 +9432,25 @@ Few days after this incident, Lorenna had already left Gouldville...
 Lorenna is the Paladin-In-Command of The Order. She has trained a lot of brave souls but her biggest achievement is [[The Protectors]]. She currently resides at [[The Church's Ward]], but rumours say that her visits at [[The Army's War Barracks]] have doubled during the past few months. She is waiting for something, and usually whenever she has a hunch, she is right...
 </pre>
 </div>
+<div created="20170928110705218" creator="The DM" modified="20170928114954235" modifier="The DM" tags="elf ranger NPC companion" title="Miinalla">
+<pre>Miinalla is a female Wood Elf Ranger from [[Synthellon]], with a tragic backstory.
+
+!!Story
+
+Miinalla always had a loose nature inside her. Having been widowed once, she proceeded to marry a second Elf, with whom she had a daughter named [[Erilin]]. 
+
+The second husband proved abussive and, after alot of years  of pain, both physical and scychological, Miinalla left with her daughter, to the human world, to veridia. 
+
+She started a new life there, found a human husband, a leutennant of the army named Sommel. as the years drew to the innevitable clash of the humans and elves, the relations between the two races lead to the deportation and killing of every elf in Veridia. Miinalla and her daughter were backstabbed from Sommel, the same man Miinalla had fallen in love with and who had sworn to protect her and took in her daughter too...
+
+After leaving Erilin to a safe place, she was taken prisoner, tortured, had her ears cut from her torturers and left in a cell to die. She eventually managed to escape through the help of [[The Red Fang]]. 
+
+Her following years were nothing less than dreadfull. To repay her dept, she sworn allegence to [[Agarthiel]], a tyrrant at [[Boneskeep]], and served as sword for hire for him.
+
+!!Now
+
+Miinalla currently travels with the players ins search of her daughter and of a new life.</pre>
+</div>
 <div created="20170611112009983" creator="The DM" modified="20170611112444741" modifier="The DM" tags="NPC human cleric" title="Norath the Caring">
 <pre>Norath is one of the most notable teachers at the Academy of Lynn, mostly because of his incredible healing abilities. He has saved a lot of people during the war and believes at the good power of Lynn. 
 
@@ -9547,11 +9585,24 @@ Following a plan, or if you would say, a contract with the Veridian Army, The Or
 <div created="20170611111351953" creator="The DM" modified="20170611111939252" modifier="The DM" tags="NPC human paladin" title="The Protectors">
 <pre>The Protectors are higly skillful paladins, mostly rumoured to be children, that early on have recieved the blessing of [[Goddess Lynn]]. They specialize in defensive magic and divine warding. They are a part of a secret &quot;Doomsday plan&quot; of the Veridian Army. Only 6 of them are rumoured to exist. Their whereabouts remain a mystery.</pre>
 </div>
-<div created="20170923152833413" creator="The DM" modified="20170923180431120" modifier="The DM" tags="paladin human PC orc" title="Ukedall the Warrior of Faith">
-<pre>Ukedall is a half-orc Palladin who fights for justice, honour and equality in this world. Bound to the goddess of knowlegde [[Iris]] he fights alongside with his trusted companions [[Golrick the Cleric]], [[Phyrell]] and [[Minalla]] against the forces of destruction and corruption. 
+<div created="20170928105205071" creator="The DM" modified="20170928110543451" modifier="The DM" tags="NPC [[not finished]]" title="The Red Fang">
+<pre>The Red Fang is a criminal organization spread accross the world. Swords for hire, blackmailers, con-artists, security guards, you name it, they can provide. 
+
+!!Hierarchy
+
+The Red Fang has no hierarchy, and its members have no place one atop another. There is no boss, no leutenants and no way to show otherwize. Every member of The Red Fang is given a red tattoo of a tiger's fang when he/she joins. That's it. The tattoo helps with identification and access to remote locations of the organization, but due to the trully agnostic hierarchy, it is also very easy to counterfeit. 
+
+!!Mutations and sub-groups
+
+Due to its agnostic and free nature, there is often need for a tighter control among the members. Mutations of The Red Fang ideal are becomming more apparent by the years, used by sub-groups of the innitiative. Some prominent sub-groups and ideologies are: 
+
+*</pre>
+</div>
+<div created="20170923152833413" creator="The DM" modified="20170923184014764" modifier="The DM" tags="paladin human PC orc" title="Ukedall the Warrior of Faith">
+<pre>Ukedall is a half-orc Palladin who fights for justice, honour and equality in this world. Bound to the goddess of knowlegde [[Iris]] he fights alongside with his trusted companions [[Golrick the Cleric]], [[Phyrell]] and [[Miinalla]] against the forces of destruction and corruption. 
 
 !!//History// 
-Ukedall was born in the [[Hyvern Mountains]] where the varius orc tribes reside. Far away from civilization only the strongest survive and that is what Ukedall did. After defeating the former tribal leader [[Yargor]] he took his place and cut a deal with the local tyrant of [[Boneskeep]], [[Agarthiel]]. The deal was that Agarthiel would supply the tribe with a drug that enhances strenght and in return the orcs would work for him running his erants. And then one day as Ukedall was delivering a parcel of drugs for Agarthiel he was double-crossed by two of his tribe members. While utterly  confused Ukedall stumblled upon Golrick and Phyrell... And Golrick was the one to show Ukedall the true meaning of life. After that eye-opening moment Ukedall realized he had been working with a tyrant and fought with his companions to overthrow him. After the oppresor was topled Ukedall was granded the title of Bishop and constructed a chappel in boneskeep so that everyone may know that god helped in the fight. After convising his tribe that the god that they believed in was false he oppointed his best friend [[Jalgor]] as tribal leader and he stepped of with his new companions in a quest to spread the true faith and reclaim the Holy island taken by force by the Kindom of Dwarfes.</pre>
+Ukedall was born in the [[Hyvern Mountains]] where the varius orc tribes reside. Far away from civilization only the strongest survive and that is what Ukedall did. After defeating the former tribal leader [[Jal'Gore]] he took his place and cut a deal with the local tyrant of [[Boneskeep]], [[Agarthiel]]. The deal was that Agarthiel would supply the tribe with a drug that enhances strenght and in return the orcs would work for him running his erants. And then one day as Ukedall was delivering a parcel of drugs for Agarthiel he was double-crossed by two of his tribe members. While utterly  confused Ukedall stumblled upon Golrick and Phyrell... And Golrick was the one to show Ukedall the true meaning of life. After that eye-opening moment Ukedall realized he had been working with a tyrant and fought with his companions to overthrow him. After the oppresor was topled Ukedall was granded the title of Bishop and constructed a chappel in boneskeep so that everyone may know that god helped in the fight. After convising his tribe that the god that they believed in was false he oppointed his best friend [[Jal'Gore]] as tribal leader and he stepped of with his new companions in a quest to spread the true faith and reclaim the Holy island taken by force by the Kindom of Dwarfes.</pre>
 </div>
 <div created="20170707143153313" creator="The DM" modified="20170707143913076" modifier="The DM" tags="elf NPC" title="Venedrethil">
 <pre>Venedrethil is one of the 12 [[Counsellors of the Silver Willow]]. Having lived for over than 300 years, he knows a lot about the world and his opinion has great weight on the table.</pre>
